@@ -1,5 +1,5 @@
-function count(num = 0) {
-
+function count() {
+    let num = 0;
     return function (numTwo) {
         return num += numTwo;
     }
